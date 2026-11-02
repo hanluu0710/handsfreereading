@@ -1,0 +1,3 @@
+[submodule "Reference/SuperPower"]
+	path = Reference/SuperPower
+	url = https://github.com/TobleMiner/smol-mppt/blob/master/LTC4162-board.pro
