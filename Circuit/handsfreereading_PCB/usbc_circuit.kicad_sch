@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CR2"
+			(property "Reference" "CR"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -228,7 +228,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 0 0)
 					(length 7.62)
 					(name "1"
@@ -246,7 +246,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 33.02 0 180)
 					(length 7.62)
 					(name "2"
@@ -257,6 +257,406 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "D_ESDA25W:ESDA25W"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 14.732 5.588 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ESDA25W"
+				(at 14.732 3.048 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT323-3L_STM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdaxxxwx.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESDA25W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT323-3L_STM SOT323-3L_STM-M SOT323-3L_STM-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESDA25W_0_1"
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 7.62 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -6.35) (xy 22.86 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0.9525) (xy 12.3825 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0.9525) (xy 12.7 -0.9525)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 1.27) (xy 15.24 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -0.9525) (xy 13.0175 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -4.1275) (xy 12.3825 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -4.1275) (xy 12.7 -6.0325)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 15.24 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 15.24 -3.81) (xy 15.24 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -6.0325) (xy 13.0175 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 1.27) (xy 15.24 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.27) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -3.81) (xy 15.24 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -6.35) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 0) (xy 17.78 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -2.54) (xy 22.86 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 1.27) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -6.35) (xy 22.86 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 -2.54 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -719,406 +1119,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESDA25W:ESDA25W"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CR"
-				(at 15.24 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ESDA25W"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT323-3L_STM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdaxxxwx.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ESDA25W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT323-3L_STM SOT323-3L_STM-M SOT323-3L_STM-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESDA25W_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 17.78 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 22.86 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0.9525) (xy 12.3825 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0.9525) (xy 12.7 -0.9525)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 15.24 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 15.24 1.27) (xy 15.24 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -0.9525) (xy 13.0175 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -4.1275) (xy 12.3825 -3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -4.1275) (xy 12.7 -6.0325)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 15.24 -3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 15.24 -3.81) (xy 15.24 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -6.0325) (xy 13.0175 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 1.27) (xy 15.24 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -1.27) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -3.81) (xy 15.24 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -6.35) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 0) (xy 17.78 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -2.54) (xy 22.86 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -10.16) (xy 22.86 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 30.48 -2.54 180)
-					(length 7.62)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2971,6 +2971,12 @@
 		(uuid "3f5e9da3-ef47-4fe9-b801-8a628fc4e125")
 	)
 	(junction
+		(at 191.77 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "407770b7-fb37-404a-aff2-984949de78e2")
+	)
+	(junction
 		(at 113.03 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2993,12 +2999,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f96b475-a955-43d7-a4a2-11d361f46d57")
-	)
-	(junction
-		(at 193.04 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "702e569c-4bb1-4606-b7fc-ab9034c2fba2")
 	)
 	(junction
 		(at 110.49 93.98)
@@ -3061,12 +3061,6 @@
 		(uuid "af5f4307-9184-4227-8675-ad4745e5f550")
 	)
 	(junction
-		(at 86.36 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3d7ba8a-9a89-4514-a37b-8ba228c7cc02")
-	)
-	(junction
 		(at 104.14 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3107,6 +3101,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecce691a-68d6-4cf9-bd35-065cd005db95")
+	)
+	(junction
+		(at 86.36 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc08511-be13-42be-8658-a678acbcf3ec")
 	)
 	(junction
 		(at 138.43 80.01)
@@ -3428,16 +3428,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 43.18) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33adbfc3-2913-4a25-916c-869b5049f961")
-	)
-	(wire
-		(pts
 			(xy 111.76 111.76) (xy 111.76 114.3)
 		)
 		(stroke
@@ -3478,16 +3468,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 43.18) (xy 194.31 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e44a95a-3151-4fdf-b4b9-39335ce4c74f")
-	)
-	(wire
-		(pts
 			(xy 104.14 111.76) (xy 111.76 111.76)
 		)
 		(stroke
@@ -3495,6 +3475,16 @@
 			(type default)
 		)
 		(uuid "3f28d4fa-7114-465e-bf80-8eb44440cacd")
+	)
+	(wire
+		(pts
+			(xy 191.77 43.18) (xy 194.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbf282a-6436-46d7-81fd-650a4409078c")
 	)
 	(wire
 		(pts
@@ -3558,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 43.18) (xy 193.04 43.18)
+			(xy 186.69 43.18) (xy 191.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4186,6 +4176,16 @@
 		)
 		(uuid "fd16b2ec-898c-4080-9120-d1a80c12bec3")
 	)
+	(wire
+		(pts
+			(xy 86.36 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff555618-7fd7-4e68-a683-c40eccd09ec5")
+	)
 	(hierarchical_label "VCHRG"
 		(shape input)
 		(at 194.31 43.18 0)
@@ -4700,6 +4700,72 @@
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/ec010397-f3ee-4aa3-a557-31a5bcd993c1"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 191.77 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "411bcf62-9969-41a2-b99f-001c46a2028d")
+		(property "Reference" "#FLG01"
+			(at 191.77 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 191.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b66a770-a7e1-4b7b-89ee-28f02bcbdd67")
+		)
+		(instances
+			(project ""
+				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/ec010397-f3ee-4aa3-a557-31a5bcd993c1"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5430,7 +5496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESDA25W:ESDA25W")
+		(lib_id "D_ESDA25W:ESDA25W")
 		(at 73.66 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5440,7 +5506,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1cbf56d-4aba-499c-99c3-ce3ff2d5e73e")
 		(property "Reference" "CR3"
-			(at 58.42 88.9 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5448,14 +5514,14 @@
 			)
 		)
 		(property "Value" "ESDA25W"
-			(at 58.42 91.44 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "SOT323-3L_STM"
+		(property "Footprint" "D_ESDA25W:SOT323-3L_STM-L"
 			(at 73.66 104.14 0)
 			(effects
 				(font
@@ -5952,7 +6018,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1685723-bd41-4019-97d4-04f64f307a7b")
 		(property "Reference" "CR2"
-			(at 190.5 55.8799 90)
+			(at 193.04 55.8799 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5961,7 +6027,7 @@
 			)
 		)
 		(property "Value" "ESDA25P35-1U1M"
-			(at 190.5 58.4199 90)
+			(at 193.04 58.4199 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5969,7 +6035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN1610_STM"
+		(property "Footprint" "D_ESDA25P35:QFN1610_STM-L"
 			(at 186.69 36.83 0)
 			(effects
 				(font
@@ -6002,7 +6068,7 @@
 			(uuid "3f501ab8-5264-4017-9c62-ce4057f321f0")
 		)
 		(pin "1"
-			(uuid "637827b1-f2a8-4cff-bcf7-0a5c600f9262")
+			(uuid "f024bf13-a3dc-47c9-ab52-43c1cc315133")
 		)
 		(instances
 			(project "handsfreereading_PCB"
@@ -6243,7 +6309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN1610_STM"
+		(property "Footprint" "D_ESDA25P35:QFN1610_STM-L"
 			(at 86.36 35.56 0)
 			(effects
 				(font
@@ -6822,72 +6888,6 @@
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/ec010397-f3ee-4aa3-a557-31a5bcd993c1"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 193.04 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4761539-da3c-4a87-83e0-1924a8943b7e")
-		(property "Reference" "#FLG01"
-			(at 193.04 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69f1a8eb-3c30-4fef-9785-29a12b143f2b")
-		)
-		(instances
-			(project ""
-				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/ec010397-f3ee-4aa3-a557-31a5bcd993c1"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
