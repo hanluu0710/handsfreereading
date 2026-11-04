@@ -412,6 +412,14 @@
     [
       "be0737e8-c076-4fc6-9fbe-9984f429f4d4",
       "Root"
+    ],
+    [
+      "ec010397-f3ee-4aa3-a557-31a5bcd993c1",
+      "usbc_circuit"
+    ],
+    [
+      "b87fa67a-4bfe-46d2-a3a7-788e116475b7",
+      "charging_circuit"
     ]
   ],
   "text_variables": {}
