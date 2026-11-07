@@ -314,7 +314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46fc3ab1-da4d-4316-9aa9-988c6d004712")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 48.895 27.94 0)
 			(effects
 				(font
@@ -363,9 +363,9 @@
 			(uuid "9f8655fd-33e9-446f-bd7f-59efbe00ef9a")
 		)
 		(instances
-			(project ""
+			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -381,7 +381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ca3ff2-cfd9-4deb-b027-7fcdc6afb3f8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -429,9 +429,9 @@
 			(uuid "ea2f1b20-e8e9-4149-801d-e000aa528550")
 		)
 		(instances
-			(project ""
+			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
