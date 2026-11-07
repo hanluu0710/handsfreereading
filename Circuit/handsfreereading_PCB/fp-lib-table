@@ -7,4 +7,5 @@
   (lib (name "fuseholder")(type "KiCad")(uri "/home/shay/a/luum/handsfreereading/Reference/Ref_Sym/fuseholder.pretty")(options "")(descr ""))
   (lib (name "FDMC8327L")(type "KiCad")(uri "/home/shay/a/luum/handsfreereading/Reference/Ref_Sym/FDMC8327L.pretty")(options "")(descr ""))
   (lib (name "DP62J12S202HQ")(type "KiCad")(uri "/home/shay/a/luum/handsfreereading/Reference/Ref_Sym/DP62J12S202HQ.pretty")(options "")(descr ""))
+  (lib (name "LCD_MSP2202_without_sd")(type "KiCad")(uri "${KIPRJMOD}/Reference_symbol/Ref_Sym/LCD_MSP2202_without_sd.pretty")(options "")(descr ""))
 )
