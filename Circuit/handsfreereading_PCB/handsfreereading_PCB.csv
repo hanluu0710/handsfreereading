@@ -1,0 +1,45 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,Status
+"BT1,BT2,BT3,BT4",4,INR217,,,,Batt_holder1122:BAT_1122,~,Not Yet
+"C1,C19",2,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+"C2,C3",2,47uF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+C4,1,Open,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+"C5,C6,C12,C23",4,4.7uF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+"C7,C10",2,0.01uF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+C8,1,2200pF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+C9,1,22pF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+C11,1,open,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+C13,1,100nF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+"C14,C15,C16,C17,C21",5,1uF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+"C18,C22",2,10uF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+C20,1,22nF,,,,Capacitor_SMD:C_0603_1608Metric,~,Not Yet
+"CR1,CR2",2,ESDA25P35-1U1M,,,,D_ESDA25P35:QFN1610_STM-L,https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf,In list
+CR3,1,ESDA25W,,,,D_ESDA25W:SOT323-3L_STM-L,https://www.st.com/resource/en/datasheet/esdaxxxwx.pdf,In list
+D1,1,SS520,,,,PCM_JLCPCB:D_SMA,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310131745_hongjiacheng-SS520_C18199170.pdf,In list
+D2,1,BAT54,,,,PCM_JLCPCB:D_SOT-23,https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171624_hongjiacheng-BAT54_C22466368.pdf,In list
+F1,1,8A,,,,Fuse:Fuse_0603_1608Metric,~,In list
+J1,1,"Connector, USB-TYPE-C-16P",,,,PCM_JLCPCB:TYPE-C-SMD_HX-TYPE-C-16PIN,https://atta.szlcsc.com/upload/public/pdf/source/20220920/0EF8F885FCCEA71F60E9E85152155021.pdf,In list
+L1,1,4.7uH,,,,Inductor_SMD:L_0603_1608Metric,~,In list
+L2,1,6.8uH,,,,fuseholder:L_EXLA1V06,https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-exla1v06-automotive-high-current-molded-inductor-data-sheet-elx1221-en.pdf,In list
+Q1,1,PMOS,,,,STL6P3LLH6:POWERFLAT_3P3X3P3_STM,https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs,In list
+"Q2,Q3",2,NMOS,,,,FDMC8327L:FDMC8327L_WDFN8_511DR_OSI,https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs,In list
+R1,1,51.1,,,,Resistor_SMD:R_0603_1608Metric,~,
+R2,1,665k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R3,1,130k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R4,1,10.2k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R5,1,37.4k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R6,1,1.96k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R7,1,470,,,,Resistor_SMD:R_0603_1608Metric,~,
+"R8,R18,R19",3,100k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R9,1,100,,,,Resistor_SMD:R_0603_1608Metric,~,
+"R10,R12,R16,R17",4,22k,,,,Resistor_SMD:R_0603_1608Metric,~,
+"R11,R13",2,1k,,,,Resistor_SMD:R_0603_1608Metric,~,
+"R14,R15",2,4.7k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R20,1,16m,,,,Resistor_SMD:R_0603_1608Metric,~,
+R21,1,10m,,,,Resistor_SMD:R_0603_1608Metric,~,
+R22,1,10k,,,,Resistor_SMD:R_0603_1608Metric,~,
+R23,1,63.4k,,,,Resistor_SMD:R_0603_1608Metric,~,
+SW1,1,SW_DPST,,,,DP62J12S202HQ:DP62J12S202HQ,~,In list
+TH1,1,Thermistor_NTC,,,,Resistor_SMD:R_0402_1005Metric,~,In list
+U1,1,TPS54531DDA,,,,DDA8_3P1X2P4_TEX:DDA8_3P1X2P4_TEX,https://www.ti.com/lit/gpn/tps54531,In list
+U2,1,STUSB4500QTR,,,,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm,https://www.st.com/resource/en/datasheet/stusb4500.pdf,In list
+U3,1,LTC4162-L,,,,Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias,https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4162-L.pdf,In list

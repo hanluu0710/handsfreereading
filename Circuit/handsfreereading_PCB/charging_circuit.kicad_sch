@@ -3564,7 +3564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08e26a51-8110-4060-baa7-2b947ad95399")
-		(property "Reference" "C10"
+		(property "Reference" "C21"
 			(at 123.825 109.855 0)
 			(effects
 				(font
@@ -3609,6 +3609,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4526a578-b197-49df-9200-fa6e2edfb67e")
 		)
@@ -3618,7 +3658,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "C10")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3634,7 +3674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c8ba3e0-36d7-4f88-aade-76c8844aa6ea")
-		(property "Reference" "C11"
+		(property "Reference" "C23"
 			(at 131.445 119.3799 0)
 			(effects
 				(font
@@ -3679,6 +3719,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f49aa40-4687-4276-b2c4-01383c9069c2")
 		)
@@ -3688,7 +3768,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "C11")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3704,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cf1cacd-e5a5-49c7-b80f-420f0182ec03")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0111"
 			(at 102.87 46.99 0)
 			(effects
 				(font
@@ -3754,7 +3834,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "#PWR014")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d180bd6-914a-4cdd-84e7-14d922404fa9")
-		(property "Reference" "R16"
+		(property "Reference" "R22"
 			(at 114.3 109.855 90)
 			(effects
 				(font
@@ -3813,6 +3893,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2eccf9d5-5316-44ee-8857-401f0210f496")
 		)
@@ -3822,7 +3942,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "R16")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3838,7 +3958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8dda4b-03c4-4c03-acde-198e0702a87a")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 130.81 61.595 90)
 			(effects
 				(font
@@ -3881,6 +4001,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07b1606b-490d-48e2-bcc3-c077b2fc370f")
 		)
@@ -3890,7 +4050,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3914,7 +4074,7 @@
 				)
 			)
 		)
-		(property "Value" "5A"
+		(property "Value" "8A"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -3922,7 +4082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fuseholder:Fuseholder_Cylinder-6.3x32mm-custom"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -3947,6 +4107,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Current - Rectified" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4017,6 +4217,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Current - Rectified" ""
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4115,6 +4355,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "2c8495fc-bdae-4995-9fcf-5f33291ae5cf")
 		)
@@ -4143,7 +4423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "203b9e01-6bb6-4e2f-82bc-5bf780d9c916")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 77.47 25.4 90)
 			(effects
 				(font
@@ -4186,6 +4466,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6dadc38d-8e6b-472c-a6af-bff682a14bfc")
 		)
@@ -4195,7 +4515,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "R15")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4211,7 +4531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29452a92-71ee-41d2-85b9-677731ee0ae8")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG0103"
 			(at 104.775 40.64 0)
 			(effects
 				(font
@@ -4262,7 +4582,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "#FLG04")
+					(reference "#FLG0103")
 					(unit 1)
 				)
 			)
@@ -4278,7 +4598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3263a6b2-34dd-4a1e-8a78-9c1aecc6ea75")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 91.0433 125.73 0)
 			(effects
 				(font
@@ -4321,6 +4641,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Current - Rectified" ""
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -4413,7 +4773,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42bae780-ac37-4038-96a5-0b944474630f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0112"
 			(at 44.45 58.42 0)
 			(effects
 				(font
@@ -4479,7 +4839,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "#PWR012")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4567,6 +4927,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d7019f1c-b4b3-49c7-8f91-56f2d787cc68")
 		)
@@ -4595,7 +4995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d6fe4ae-76e0-4883-911f-93ab0529b9b9")
-		(property "Reference" "BT3"
+		(property "Reference" "BT2"
 			(at 186.055 106.1084 0)
 			(effects
 				(font
@@ -4640,6 +5040,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a723d74a-7223-43ac-85aa-30877370a4e9")
 		)
@@ -4649,7 +5089,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "BT3")
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -4664,7 +5104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "851e8f8a-8c65-4eea-9568-4044a27aa9d4")
-		(property "Reference" "C9"
+		(property "Reference" "C20"
 			(at 120.65 60.9599 0)
 			(effects
 				(font
@@ -4709,6 +5149,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48690ff9-ee23-4638-86e2-ddfc60956b3d")
 		)
@@ -4718,7 +5198,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "C9")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4734,7 +5214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88bd16e8-ac76-41f9-aedf-d38228f69655")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 48.26 45.7199 0)
 			(effects
 				(font
@@ -4779,6 +5259,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1708c248-2517-4a82-8732-4e09d3421a19")
 		)
@@ -4788,7 +5308,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "C7")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4804,7 +5324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934f715b-8bc3-4a51-8c05-0ed5c287e765")
-		(property "Reference" "C8"
+		(property "Reference" "C18"
 			(at 106.045 34.2899 0)
 			(effects
 				(font
@@ -4849,6 +5369,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9599ed88-53d3-4283-b6ae-dfc95445af88")
 		)
@@ -4858,7 +5418,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "C8")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4874,7 +5434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b812f9c-70b9-439a-a8ac-49ffec39bda7")
-		(property "Reference" "C12"
+		(property "Reference" "C22"
 			(at 140.97 111.7599 0)
 			(effects
 				(font
@@ -4919,6 +5479,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f25ce50-2625-4e2a-ad62-ed948391178c")
 		)
@@ -4928,7 +5528,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "C12")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4944,7 +5544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b003a5db-d23b-4b75-b8cb-ddca32fc61ff")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0113"
 			(at 82.55 137.16 0)
 			(effects
 				(font
@@ -4994,7 +5594,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "#PWR013")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5010,7 +5610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba529a08-70af-414d-a1c5-2ad04e54f3e9")
-		(property "Reference" "BT2"
+		(property "Reference" "BT3"
 			(at 172.085 114.9984 0)
 			(effects
 				(font
@@ -5055,6 +5655,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0b60c7b-a735-4200-8e20-495930ae8c17")
 		)
@@ -5064,7 +5704,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "BT2")
+					(reference "BT3")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c14268ba-f41e-425f-8b2d-e6d91e2f3626")
-		(property "Reference" "R17"
+		(property "Reference" "R21"
 			(at 139.065 77.4699 0)
 			(effects
 				(font
@@ -5125,6 +5765,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "320ada84-e076-4f98-8c01-a97d885b4ed6")
 		)
@@ -5134,7 +5814,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "R17")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5150,7 +5830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d74c113c-7807-4892-af4f-24ede601f03e")
-		(property "Reference" "R14"
+		(property "Reference" "R23"
 			(at 54.864 124.4599 0)
 			(effects
 				(font
@@ -5195,6 +5875,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7546e9f0-0b4c-44be-933f-e06a94abfe9d")
 		)
@@ -5204,7 +5924,7 @@
 		(instances
 			(project "handsfreereading_PCB"
 				(path "/be0737e8-c076-4fc6-9fbe-9984f429f4d4/b87fa67a-4bfe-46d2-a3a7-788e116475b7"
-					(reference "R14")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5261,6 +5981,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Current - Rectified" ""
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -5338,6 +6098,46 @@
 				(hide yes)
 			)
 		)
+		(property "Current - Rectified" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f237e008-e19e-4525-9b34-6eea344fc919")
 		)
@@ -5406,6 +6206,46 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Current - Rectified" ""
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diode Configuration" ""
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" ""
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - DC Reverse(Vr)" ""
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage - Forward(Vf@If)" ""
+			(at 182.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

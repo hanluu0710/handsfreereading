@@ -8,4 +8,5 @@
   (lib (name "1122")(type "KiCad")(uri "${KIPRJMOD}/Reference_symbol/Ref_Sym/1122.kicad_sym")(options "")(descr ""))
   (lib (name "DP62J12S202HQ")(type "KiCad")(uri "${KIPRJMOD}/Reference_symbol/Ref_Sym/DP62J12S202HQ.kicad_sym")(options "")(descr ""))
   (lib (name "FDMC8327L")(type "KiCad")(uri "${KIPRJMOD}/Reference_symbol/Ref_Sym/FDMC8327L.kicad_sym")(options "")(descr ""))
+  (lib (name "DDA8_3P1X2P4_TEX")(type "KiCad")(uri "${KIPRJMOD}/Reference_symbol/Ref_Sym/DDA8_3P1X2P4_TEX.kicad_sym")(options "")(descr ""))
 )
