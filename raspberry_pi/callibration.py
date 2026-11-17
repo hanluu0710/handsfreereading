@@ -45,6 +45,8 @@ def record_position(region, gaze, camera):
 		text = f"Look towards {region} of the book."
 		display_instruction(frame, text)
 		cv2.imshow("Adjustment period.", frame)
+		if cv2.waitKey(1) & 0xFF == 27:
+			break
 	
 	duration = 3 #duration of recording eye position
 	
@@ -72,17 +74,27 @@ def record_position(region, gaze, camera):
 			left_pupil = gaze.pupil_left_coords()
 			right_pupil = gaze.pupil_right_coords()
 			
-			running_sum_left_pupil_x += left_pupil[0]
-			running_sum_left_pupil_y += left_pupil[1]
-			running_sum_right_pupil_x += right_pupil[0]
-			running_sum_right_pupil_y += right_pupil[1]
+			#handle case where coordinates could not be recorded despite user not blinking
+			if left_pupil is not None and right_pupil is not None:
 			
-			count += 1
+				running_sum_left_pupil_x += left_pupil[0]
+				running_sum_left_pupil_y += left_pupil[1]
+				running_sum_right_pupil_x += right_pupil[0]
+				running_sum_right_pupil_y += right_pupil[1]
+				
+				count += 1
 			
 		display_instruction(frame, text)	
 		cv2.imshow("Demo", frame)
+		
 		time.sleep(0.01) #capture position every 0.01 seconds
 		
+		if cv2.waitKey(1) & 0xFF == 27:
+			break
+	
+	#return coordinates		
+	if count == 0:
+		return None, None	
 	avg_left_pupil_x = running_sum_left_pupil_x/count
 	avg_left_pupil_y = running_sum_left_pupil_y/count
 	avg_right_pupil_x = running_sum_right_pupil_x/count
