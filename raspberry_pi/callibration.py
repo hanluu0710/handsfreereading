@@ -46,13 +46,16 @@ def record_position(region, gaze, camera):
 		display_instruction(frame, text)
 		cv2.imshow("Adjustment period.", frame)
 	
-	time.sleep(2) #pause program for 2 seconds
-	
 	duration = 3 #duration of recording eye position
 	
 	end_time = time.monotonic() + duration
 	
 	count = 0 #number of times valid positions are recorded
+	
+	running_sum_left_pupil_x = 0
+    running_sum_left_pupil_y = 0
+    running_sum_right_pupil_x = 0
+    running_sum_right_pupil_y = 0
 	
 	while time.monotonic() < end_time:
 		frame = camera.capture_array()
@@ -65,7 +68,7 @@ def record_position(region, gaze, camera):
 		if gaze.is_blinking():
 			text = "Blinking."
 		else:
-			text = "Keep looking towards the center."
+			text = f"Keep looking towards the {region}."
 			left_pupil = gaze.pupil_left_coords()
 			right_pupil = gaze.pupil_right_coords()
 			
@@ -85,7 +88,7 @@ def record_position(region, gaze, camera):
 	avg_right_pupil_x = running_sum_right_pupil_x/count
 	avg_right_pupil_y = running_sum_right_pupil_y/count
 	
-	return (left_x, left_y), (right_x, right_y)
+	return (avg_left_pupil_x, avg_left_pupil_y), (avg_right_pupil_x, avg_right_pupil_y)
 	
 
 gaze = GazeTracking()
@@ -96,9 +99,9 @@ config = picam2.create_video_configuration(
 picam2.configure(config)
 picam2.start()
 
-center_left_coords, center_right_coords = record_position(center, gaze, picam2)
-left_left_coords, left_right_coords = record_position(left, gaze, picam2)
-right_left_coords, right_right_coords = record_position(right, gaze, picam2)
+center_left_coords, center_right_coords = record_position("center", gaze, picam2)
+left_left_coords, left_right_coords = record_position("left", gaze, picam2)
+right_left_coords, right_right_coords = record_position("right", gaze, picam2)
 
 picam2.stop()
 cv2.destroyAllWindows()
