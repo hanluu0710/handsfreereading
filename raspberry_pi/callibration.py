@@ -21,6 +21,18 @@ def display_instruction(frame, text):
 	"""Use for displaying text on the video frame user sees."""
 	cv2.putText(frame, text, (90, 60), cv2.FONT_HERSHEY_DUPLEX, 1.6, (147, 58, 31), 2)
 
+def validate_callibration(center_data, left_data, right_data):
+	"""
+	Parameters:
+	region_data: (avg_left_pupil_x, avg_left_pupil_y, std_left_x, std_left_y), (avg_right_pupil_x, avg_right_pupil_y, std_right_x, std_right_y)
+	Outputs:
+	valid: boolean true/false
+	
+	Function:
+	1. Check if any of the three regions (left/center/right) overlap using standard deviation and average eye coordinate positions for each region.
+	"""
+	
+
 def record_position(region, gaze, camera):
 	"""
 	Parameters:
@@ -100,7 +112,7 @@ def record_position(region, gaze, camera):
 	avg_right_pupil_x = running_sum_right_pupil_x/count
 	avg_right_pupil_y = running_sum_right_pupil_y/count
 	
-	return (avg_left_pupil_x, avg_left_pupil_y), (avg_right_pupil_x, avg_right_pupil_y)
+	return (avg_left_pupil_x, avg_left_pupil_y, std_left_x, std_left_y), (avg_right_pupil_x, avg_right_pupil_y, std_right_x, std_right_y)
 	
 
 gaze = GazeTracking()
@@ -111,13 +123,9 @@ config = picam2.create_video_configuration(
 picam2.configure(config)
 picam2.start()
 
-center_left_coords, center_right_coords = record_position("center", gaze, picam2)
-left_left_coords, left_right_coords = record_position("left", gaze, picam2)
-right_left_coords, right_right_coords = record_position("right", gaze, picam2)
+center_data = record_position("center", gaze, picam2)
+left_data = record_position("left", gaze, picam2)
+right_data = record_position("right", gaze, picam2)
 
 picam2.stop()
 cv2.destroyAllWindows()
-
-print(f"center_left_coords = {center_left_coords}, center_right_coords = {center_right_coords}.")
-print(f"left_left_coords = {left_left_coords}, left_right_coords = {left_right_coords}.")
-print(f"right_left_coords = {right_left_coords}, right_right_coords = {right_right_coords}.")
